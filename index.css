@@ -1,0 +1,27 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.commands {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+}
+
+.commands button {
+    border: none;
+    position: relative;
+    margin-left: -50px;
+    background-color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: green;
+}
